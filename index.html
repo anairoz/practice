@@ -9,16 +9,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
 </head>
 <body>
-	<nav class="bg navbar navbar-expand-md navbar-light fixed-top ">
-		<a class="navbar-brand" href="#"> <img src="logo.png" height="50px" alt=""></a>
+	<nav class="bg container navbar navbar-expand-md navbar-light fixed-top  py-0 ">
+		<a class="navbar-brand js-scroll-trigger" href="#"> <img src="logo.png" height="45px" alt=""></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="collapse navbar-collapse" id="navbarCollapse">
-			<ul class="navbar-nav m1-auto">
+		<div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+			<ul class="navbar-nav m1-auto ">
 				<li class="nav-item active">
 					<a class="nav-link" href="#">ALL PRODUCTS <span class="sr-only">(current)</span></a>
 				</li>
@@ -35,58 +35,109 @@
 			</ul>
 		</div>
     </nav>
-    <!-- <div id="intro" class="view">
-        <div class="mask">
 
-        </div>
-    </div> -->
     <!-- Header -->
     <header class="mainhead mask">
-        <div class="container">
-            <div class="container d-flex h-100 align-items-center">
-        		<div class="mx-auto text-center">
-                	<h1 class="mx-auto my-0 ">Quick Search for Your Perfect Product</h1>
-                	<p class="mx-auto mt-2 mb-5 text-uppercase">innovate list connect</p>
 
-        			<div class="input-group m-3">
-                        <div class="input-group-prepend">
-                            <button class="btn  btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category</button>
-        			        <div class="dropdown-menu ">
-                                <a class="dropdown-item" href="#">Category 1</a>
-        					    <a class="dropdown-item" href="#">Category 2</a>
-        					    <a class="dropdown-item" href="#">Something else here</a>
-        					    <div role="separator" class="dropdown-divider"></div>
-        					    <a class="dropdown-item" href="#">Separated link</a>
-        					</div>
-                        </div>
-        				<input type="text" class="form-control" aria-label="Text input with dropdown button">
-        				<div class="input-group-append">
-        				    <button class="btn button-search text-uppercase active"  type="button">start searching</button>
-                        </div>
-        			</div>
+            <div class="container">
+                <div class="container d-flex h-100 align-items-center">
+            		<div class="mx-auto text-center">
+                    	<h1 class="mx-auto my-0 ">Quick Search for Your <span class="letter">Perfect Product</span></h1>
+                    	<p class="mx-auto mt-2 mb-5 text-uppercase">innovate list connect</p>
 
-              	</div>
+            			<div class="input-group m-3">
+                            <div class="input-group-prepend">
+                                <button class="btn  btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category</button>
+            			        <div class="dropdown-menu ">
+                                    <a class="dropdown-item" href="#">Category 1</a>
+            					    <a class="dropdown-item" href="#">Category 2</a>
+            					    <a class="dropdown-item" href="#">Something else here</a>
+            					    <div role="separator" class="dropdown-divider"></div>
+            					    <a class="dropdown-item" href="#">Separated link</a>
+            					</div>
+                            </div>
+            				<input type="text" class="form-control" aria-label="Text input with dropdown button">
+            				<div class="input-group-append">
+            				    <button class="btn button-search text-uppercase active"  type="button">start searching</button>
+                            </div>
+            			</div>
+
+                  	</div>
+                </div>
+
+            </div>
+            <div class="container d-flex justify-content-around align-items-end">
+                <a href="#"><img src="allcateg.png" alt=""></a>
+                <a href="#"><img src="hiw.png" alt=""></a>
             </div>
 
-        </div>
-        <div class="container d-flex justify-content-around align-items-end">
-            <a href="#"><img src="allcateg.png" alt=""></a>
-            <a href="#"><img src="hiw.png" alt=""></a>
-        </div>
+
     </header>
 
-    <section>
-        <div class="container d-flex align-items-center">
-            <div class="row">
-                <div class="mx-auto">
-                  <h2 class="text-black mb-4">Most Popular Products</h2>
-                  <p class="text-black-50">This is the list of products that are the most interested in users</p>
+    <section class="text-center products">
+        <h2 class="my-2">Most Popular Products</h2>
+        <p>This is the list of products that are the most interested in users</p>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="hubstuf.png" alt="">
+                <p>Hubstaff Director</p>
+            </div>
+            <div class="grid-item">
+                <img src="jira.png" alt="">
+                <p>Jira 2017</p>
+            </div>
+            <div class="grid-item">
+                <img src="slack.png" alt="">
+                <p>Slack Pro</p>
+            </div>
+            <div class="grid-item">
+                <img src="trave.png" alt="">
+                <p>TraveChat</p>
+            </div>
+            <div class="grid-item">
+                <img src="netw.png" alt="">
+                <p>Network</p>
+            </div>
+            <div class="grid-item">
+                <img src="camp.png" alt="">
+                <p>Time Camp</p>
+            </div>
+        </div>
+        <a href="#all">All products</a>
+    </section>
+    <section class="text-center  testimonial">
+        <h2 class="my-2 text-white">Testimonials</h2>
+        <p class="text-white">What our customers told about us</p>
+
+    </section>
+    <footer>
+        <div class="info pt-2">
+            <div class="container d-flex justify-content-center">
+                <img  src="footparr.png" >
+            </div>
+            <div class="info navbar navbar-dark d-flex justify-content-center navbar-expand-md">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">ABOUT US <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">TERMS OF SERVICE <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#">PRIVATE POLICY <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">CONTUCT US <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
             </div>
         </div>
 
-    </section>
+        <div class="footer-c text-center font-small text-white">
+          © 2018 Find Parrot
+        </div>
 
-
+    </footer>
 </body>
 
 </html>
