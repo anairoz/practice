@@ -1,0 +1,37 @@
+
+.mainhead {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: url(main.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0);
+}
+
+.vl{
+	border-left: 1px gray;
+}
+
+.navbar {
+	background-color: #e5e6ea;
+}
+
+.button-search{
+	background-color: #4dadbb;
+	color: white;
+	font-size: 10pt;
+}
+
+.btns{
+	font-size: 10pt;
+}
