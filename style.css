@@ -1,7 +1,15 @@
 
+body{
+    font-family: 'Raleway', sans-serif;
+}
 #grad {
   background-image: linear-gradient(to right, #e6e7eb , #e4e5e9);
 }
+
+.vl::after {
+  content: " |";
+}
+
 #intro {
     height: 100hv;
 }
@@ -13,11 +21,13 @@
     -o-background-size: cover;
     background-size: cover;
 }
-body{
-    font-family: 'Raleway', sans-serif;
+.navbar {
+	background-color: #e5e6ea;
 }
+
 .mainhead {
     display: grid;
+    box-sizing: border-box;
     position: relative;
     width: 100%;
     height: 100vh;
@@ -34,29 +44,54 @@ body{
     padding: 5rem 0 1rem;
   }
 }
-hr {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0);
+.helpfix{
+    display: grid;
+    grid-template-rows: 1fr 150px;
 }
 
-.vl{
-	border-left: 1px gray;
+.mainhead h1{
+    font-weight: 900;
+    font-size: 300%;
+}
+h1 {
+    font-size: 3rem;
 }
 
-.navbar {
-	background-color: #e5e6ea;
+.dropdown-button-custom{
+    color: #484848;
+    background-color: #ffff;
+    border-right-color: #cdcdcd;
 }
-
+.form-control{
+    border: none;
+}
 .button-search{
 	background-color: #4dadbb;
 	color: white;
 	font-size: 10pt;
 }
 
-.btns{
+.btn{
 	font-size: 10pt;
+}
+
+
+.info{
+    background-color: #323232;
+}
+span.name {
+    color:#0e7200;
+
+}
+
+.white-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 240px;
+    margin: auto;
+}
+.white-buttons img{
+    margin: 5px;
 }
 
 .products{
@@ -73,6 +108,11 @@ hr {
     background-size: cover;
     scroll-behavior: smooth;
 }
+
+.container{
+    width: 100%;
+}
+
 
 .grid-container{
 
@@ -127,36 +167,7 @@ footer{
     background-color: #272727;
 
 }
-.info{
-    background-color: #323232;
-}
-span.name {
-    color:#0e7200;
 
-}
-
-h1.font-weight-bold{
-    font-size: 55px;
-
-}
-.white-buttons{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 0 240px;
-}
-.helpfix{
-    display: grid;
-    grid-template-rows: 1fr 200px;
-}
 .imageWrapper{
-
-}
-
-/* .mainhead h1{
-    font-weight: 900;
-    font-size: 300%;
-} */
-
-.container{
 
 }
