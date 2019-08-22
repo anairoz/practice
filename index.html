@@ -10,26 +10,27 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
 	<nav class="bg navbar navbar-expand-md navbar-light fixed-top  py-2 px-4 ">
-		<a class="navbar-brand js-scroll-trigger" href="#"> <img src="./img/logo/logo.png" height="45px" alt=""></a>
+		<a class="navbar-brand js-scroll-trigger" href="#"> <img src="./img/logo/logo.png" alt=""></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
 			<ul class="navbar-nav m1-auto ">
 				<li class="nav-item active">
-					<a class="nav-link" href="#">ALL PRODUCTS <span class="sr-only">(current)</span></a>
+					<a class="nav-link px-4" href="#">ALL PRODUCTS <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item active">
-					<a class="nav-link" href="#">ABOUT US <span class="sr-only">(current)</span></a>
+					<a class="nav-link px-4" href="#">ABOUT US <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active vl d-flex">
+					<a class="nav-link  px-4" href="#">LOG IN <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item active">
-					<a class="nav-link   vl" href="#">LOG IN <span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item active">
-					<a class="nav-link" href="#">SIGN IN <span class="sr-only">(current)</span></a>
+					<a class="nav-link px-4" href="#">SIGN IN <span class="sr-only">(current)</span></a>
 				</li>
 			</ul>
 		</div>
@@ -44,9 +45,9 @@
                     	<h1>Quick Search for Your <span class="name">Perfect Product</span></h1>
                     	<p class="mx-auto my-2 text-uppercase font-weight-light">innovate &#183; list &#183; connect</p>
 
-            			<div class="input-group m-3 py-4">
+            			<div class="input-group my-3 py-4">
                             <div class="input-group-prepend">
-                                <button class="btn btn-outline-light dropdown-button-custom dropdown-toggle p-3" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category</button>
+                                <button class="btn btn-outline-light dropdown-button-custom dropdown-toggle p-4" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category</button>
             			        <div class="dropdown-menu ">
                                     <a class="dropdown-item" href="#">Category 1</a>
             					    <a class="dropdown-item" href="#">Category 2</a>
@@ -74,8 +75,10 @@
     </header>
 
     <section class="text-center products">
-        <h2 class="my-2">Most Popular Products</h2>
-        <p>This is the list of products that are the most interested in users</p>
+        <div class="">
+            <h2 class="my-2">Most Popular Products</h2>
+            <p>This is the list of products that are the most interested in users</p>
+        </div>
         <div class="grid-container">
             <div class="grid-item">
                 <div class="imageWrapper">
@@ -117,8 +120,47 @@
         <a href="#all">All products</a>
     </section>
     <section class="text-center  testimonial">
-        <h2 class="my-2 text-white">Testimonials</h2>
-        <p class="text-white">What our customers told about us</p>
+        <div class="">
+            <h2 class="my-2 text-white">Testimonials</h2>
+            <p class="text-white">What our customers told about us</p>
+        </div>
+
+        <div class="carousel">
+            <img src="./img/arr-l.png" alt="">
+
+            <div class="testimonals main">
+                <div class="user-photo">
+                    <img src="./img/testimonals/up/john.png" alt="">
+                </div><!-- <img class="testimonals" src="./img/testimonals/testimbg.png" alt=""> -->
+                <div class="testimonals-text">
+                    <p class="feedback">I have been incredibly impressed with LinkUp team of developers. They worked hard to deliver the highest-quality product possible and exceeded my expectations at every step of the way. I initially found Andriy in search of a better price than what I could find locally with other development firms. But what I found - in addition to a better price - was a much higher-quality product as well, in every way: service, design, development, communications...etc. 5+++ Stars work. Great job.</p>
+                    <p class="author">John Kahman</p>
+                    <p class="who">Wholesum Founder</p>
+                </div>
+            </div>
+            <!-- <div class="testimonals left">
+                <div class="user-photo">
+                    <img src="./img/testimonals/up/adam.png" alt="">
+                </div>
+                <div class="testimonals-text">
+                    <p class="feedback">Loved working with LinkUp. Great guys, developers, and management. They knew how to do the job, in the most professional way.</p>
+                    <p class="author">John Kahman</p>
+                    <p class="who">Wholesum Founder</p>
+                </div>
+            </div>
+            <div class="testimonals right">
+                <div class="user-photo">
+                    <img src="./img/testimonals/up/oleh.png" alt="">
+                </div>
+                <div class="testimonals-text">
+                    <p class="feedback">Nice company willing to work and get educated at he same time. Ready to face any challenges and very friendly with customers. They quote very humbly and every invoice can be discussed well in advance. We made a custom design web shop with them and keep on cooperating on development and maintenance. Highly recommended.</p>
+                    <p class="author">John Kahman</p>
+                    <p class="who">Wholesum Founder</p>
+                </div>
+            </div> -->
+            <img src="./img/arr-r.png" alt="">
+
+        </div>
 
     </section>
     <footer>
