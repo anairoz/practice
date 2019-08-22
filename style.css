@@ -229,10 +229,9 @@ footer{
     /* display: none;
 
 } */
-.carousel{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 0 auto 0 auto;
-
-
+.carousel-place{
+    display: flex;
+}
+.carousel-place a{
+    margin: 8% auto auto;
 }
