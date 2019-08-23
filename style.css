@@ -47,11 +47,7 @@ body{
     background-attachment: scroll;
     background-size: cover;
 }
-@media screen and (max-width: 700px) {
-  .mainhead {
-    padding: 5rem 0 1rem;
-  }
-}
+
 .helpfix{
     display: grid;
     grid-template-rows: 1fr 150px;
@@ -95,7 +91,7 @@ span.name {
 .white-buttons{
     display: flex;
     justify-content: space-evenly;
-    padding: 0 240px;
+    padding: 0 320px;
     margin: auto;
 }
 .white-buttons img{
@@ -103,7 +99,6 @@ span.name {
 }
 
 .products{
-    display: grid;
     position: relative;
     width: 100%;
     height: 100vh;
@@ -122,14 +117,15 @@ span.name {
 }
 
 
-.grid-container{
-
+.grid-products{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows:  repeat(2, 1fr);
+
     gap: 50px 80px;
     justify-items: center;
     margin: 0 auto;
+
 
 }
 .grid-item {
@@ -142,8 +138,8 @@ span.name {
     box-sizing: border-box;
     margin: auto 0;
 
-
   }
+
 
   .grid-item img{
     width: 325px;
@@ -154,7 +150,43 @@ span.name {
     text-align: left;
     color: #8b8b8b;
   }
+  @media screen and (max-width: 1965px){
+    .grid-products{
+        column-gap: 0.5rem;
+        margin: 0 auto;
 
+    }
+  }
+  @media screen and (max-width: 1275px) {
+    .grid-products{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows:  repeat(3, 1fr);
+        column-gap: 0.7rem;
+        margin: 0 auto;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .grid-products{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows:  repeat(6, 1fr);
+        margin: 0 auto;
+
+    }
+    .grid-item{
+        height: 21rem;
+        width: 21rem;
+    }
+
+    .grid-item img{
+      width: 100%;
+      /* height: 250px; */
+    }
+
+  }
+.all-products{
+    text-align: center;
+    margin: auto;
+}
   .testimonial{
       display: grid;
       position: relative;
@@ -176,14 +208,9 @@ footer{
 }
 .footer-c{
     background-color: #272727;
-
 }
 
-.imageWrapper{
-
-}
-
-.testimonals{
+.testimony{
     display: grid;
     height: 419px;
     width: 696px;
@@ -192,11 +219,48 @@ footer{
     box-shadow: -1px 2px 47.53px 1.47px rgba(0, 0, 0, 0.17);
     margin: 0 auto 0 auto;
     grid-template-rows: min-content;
+    text-align: center;
 }
-.testimonals-text{
+@media screen and (max-width: 1275px) {
+    .testimony{
+        width: 60%;
+        height: 21rem;
+    }
+    .testimony-text p{
+        font-size: 0.6rem;
+        margin: auto;
+    }
+    .user-photo img{
+        height: 6rem;
+        margin: 0.01rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .testimony{
+        width: 60%;
+        height: 21rem;
+    }
+    .testimony-text p{
+        font-size: 0.5rem;
+        margin: auto;
+    }
+    .user-photo img{
+        height: 5rem;
+        margin: 0.01rem;
+    }
+}
+.testimony-text{
     align-items: center;
     margin: auto 60px;
     /* size: inherit; */
+}
+.testimonial-main-text{
+    text-align: center;
+    color: white;
+}
+.products-main-text{
+    text-align: center;
+    color: black;
 }
 .feedback{
     font-size: 11.3pt;
@@ -234,4 +298,17 @@ footer{
 }
 .carousel-place a{
     margin: 8% auto auto;
+}
+
+@media screen and (max-width: 700px) {
+  .mainhead {
+    padding: 5rem 0 1rem;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+    body{
+        font-size: 0.5rem;
+    }
+
 }
