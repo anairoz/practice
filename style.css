@@ -316,7 +316,7 @@ footer{
 @media screen and (max-width: 768px) {
     .testimony{
         width: 60%;
-        height: 21rem;
+        height: 18rem;
     }
     .testimony-text p{
         font-size: 0.5rem;
@@ -411,5 +411,11 @@ footer{
     .footer-c{
         font-size: 0.5rem;
     }
-
+    .mainhead {
+        font-size: 0.5rem;
+    }
+    .dropdown-button-custom{
+        padding: 3px;
+        font-size: x-small;
+    }
 }
