@@ -6,9 +6,8 @@ body{
   background-image: linear-gradient(to right, #e6e7eb , #e4e5e9);
 }
 
-.vl::after {
-  content: "|";
-  font-size: 32px;
+.vl{
+    border-left: #cdcdcd;
 }
 
 #intro {
@@ -25,7 +24,15 @@ body{
 .navbar {
 	background-color: #e5e6ea;
 }
- .nav-link{
+.navbar-collapse{
+    text-align: end;
+}
+
+.vl {
+  border-left: 1px solid #cdcdcd;
+  height: 100%;
+}
+.nav-link{
     padding-right: 50px;
     font-size: 14pt;
 }
@@ -156,6 +163,26 @@ span.name {
         margin: 0 auto;
 
     }
+    .products{
+
+        height: auto;
+    }
+    .navbar img{
+        height: 3rem;
+    }
+    .white-buttons img{
+        height: 3rem;
+    }
+    body{
+        font-size: 0.8rem;
+    }
+    .navbar {
+        font-size: 2rem;
+    }
+
+    .grid-item{
+    }
+
   }
   @media screen and (max-width: 1275px) {
     .grid-products{
@@ -164,6 +191,26 @@ span.name {
         column-gap: 0.7rem;
         margin: 0 auto;
     }
+    .products{
+
+        height: auto;
+    }
+    .navbar img{
+        height: 2rem;
+    }
+    .white-buttons img{
+        height: 2rem;
+    }
+    .navbar {
+        font-size: 2rem;
+    }
+
+    .grid-products {
+        column-gap: 0.5rem;
+        margin: 0 auto;
+        /* width: fit-content; */
+    }
+
   }
   @media screen and (max-width: 768px) {
     .grid-products{
@@ -181,7 +228,21 @@ span.name {
       width: 100%;
       /* height: 250px; */
     }
+    .products{
 
+        height: auto;
+    }
+    .navbar img{
+        height: 2rem;
+    }
+    .white-buttons img{
+        height: 2rem;
+    }
+    .grid-products {
+        column-gap: 0.5rem;
+        margin: 0 auto;
+        width: fit-content;
+    }
   }
 .all-products{
     text-align: center;
@@ -221,6 +282,22 @@ footer{
     grid-template-rows: min-content;
     text-align: center;
 }
+@media screen and (max-width: 1965px) {
+    .testimony{
+        width: 60%;
+        height: 21rem;
+    }
+    .testimony-text p{
+        font-size: 0.8rem;
+        margin: auto;
+    }
+    .user-photo img{
+        height: 6rem;
+        margin: 1.01rem;
+    }
+
+}
+
 @media screen and (max-width: 1275px) {
     .testimony{
         width: 60%;
@@ -234,6 +311,7 @@ footer{
         height: 6rem;
         margin: 0.01rem;
     }
+
 }
 @media screen and (max-width: 768px) {
     .testimony{
@@ -305,9 +383,32 @@ footer{
     padding: 5rem 0 1rem;
   }
 }
+@media screen and (max-width: 1965px){
+    .info img{
+        height: 4rem;
 
-@media screen and (max-width: 1440px) {
-    body{
+    }
+    .footer-c{
+        font-size: 0.5rem;
+    }
+
+}
+@media screen and (max-width: 1275px){
+    .info img{
+        height: 3rem;
+
+    }
+    .footer-c{
+        font-size: 0.5rem;
+    }
+
+}
+@media screen and (max-width: 768px){
+    .info img{
+        height: 2rem;
+
+    }
+    .footer-c{
         font-size: 0.5rem;
     }
 
