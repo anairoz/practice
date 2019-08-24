@@ -21,6 +21,15 @@ body{
     -o-background-size: cover;
     background-size: cover;
 }
+
+
+.nav-button{
+	display: block;
+	padding: .5rem 3rem;
+	color: black;
+	font-size: 14pt;
+
+}
 .navbar {
 	background-color: #e5e6ea;
 }
@@ -98,7 +107,7 @@ span.name {
 .white-buttons{
     display: flex;
     justify-content: space-evenly;
-    padding: 0 320px;
+    padding: 0 3rem;
     margin: auto;
 }
 .white-buttons img{
@@ -418,4 +427,9 @@ footer{
         padding: 3px;
         font-size: x-small;
     }
+}
+@media screen and (max-width: 767px) {
+.vl{
+    border: none;
+}
 }
