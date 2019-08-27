@@ -185,7 +185,6 @@ span.name {
     background-color: white;
     border-radius: 30px;
     box-shadow: -1px 2px 47.53px 1.47px rgba(0, 0, 0, 0.17);
-    margin: 0 auto 0 auto;
     grid-template-rows: min-content;
     text-align: center;
 }
@@ -232,9 +231,24 @@ span.name {
 
 .carousel-place{
     display: flex;
+    justify-content: center;
 }
 .carousel-place a{
     margin: 8% auto auto;
+}
+.main{
+    position: absolute;
+    z-index: 1;
+}
+.left{
+    z-index: 0;
+    opacity: 0.6;
+    transform: scale(0.7);
+}
+.right{
+    z-index: 0;
+    opacity: 0.6;
+    transform: scale(0.7);
 }
 
 .footer-c{
@@ -627,6 +641,19 @@ span.name {
         font-size: 0.7rem!important;
         padding-right:  0;
     }
+    /* Testimonials are behind the main testimony */
+    .main{
+        position: absolute;
+        z-index: 1;
+    }
+    .left{
+
+    }
+    .right{
+
+
+    }
+
 }
 
 /* @media screen and (max-width: 700px) {
