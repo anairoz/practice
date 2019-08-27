@@ -641,18 +641,6 @@ span.name {
         font-size: 0.7rem!important;
         padding-right:  0;
     }
-    /* Testimonials are behind the main testimony */
-    .main{
-        position: absolute;
-        z-index: 1;
-    }
-    .left{
-
-    }
-    .right{
-
-
-    }
 
 }
 
