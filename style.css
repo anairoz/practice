@@ -25,8 +25,9 @@ body{
 }
 nav.navbar{
 
-    background-color: transparent;
+    /* background-color: transparent; */
 
+background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(205,205,205,1));
 }
 
 .navbar-collapse{
