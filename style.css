@@ -190,9 +190,9 @@ span.name {
 }
 
 .testimony-text{
-    align-items: center;
-    margin: auto 60px;
-/* size: inherit; */
+    display: grid;
+    align-items: flex-end;
+    margin: 0 60px;
 }
 .main-text{
     text-align: center;
@@ -497,6 +497,7 @@ span.name {
         height: 17rem;
     }
     .testimony-text {
+
         align-items: center;
         margin: auto 40px;
     }
